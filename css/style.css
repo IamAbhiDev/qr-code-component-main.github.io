@@ -23,3 +23,26 @@ textarea,
 select {
     font: inherit;
 }
+
+/*Root Settings*/
+
+:root {
+    /* Primary */
+
+    --white: hsl(0, 0%, 100%);
+    --light-gray: hsl(212, 45%, 89%);
+
+    /*Secondary*/
+
+    --dark-blue: hsl(218, 44%, 22%);
+    --grayish-blue: hsl(220, 15%, 55%);
+
+    /* Font Weight */
+
+    --light: 400;
+    --bold: 700;
+
+    /* Font Family */
+
+    --ff-primary: 'Outfit', sans-serif;
+}
