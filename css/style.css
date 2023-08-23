@@ -46,3 +46,22 @@ select {
 
     --ff-primary: 'Outfit', sans-serif;
 }
+
+/*Basic Styles*/
+
+body {
+    background-color: var(--light-gray);
+    font-family: var(--ff-primary);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sr-only {
+    position: absolute;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    color: white;
+}
